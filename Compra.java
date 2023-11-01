@@ -18,4 +18,14 @@ public class Compra {
     public int getPrecoCarro() {
         return precoCarro;
     }
+
+    @Override
+    public String toString() {
+        return  "nome:" + tipo  + ", " +
+                "numero:" + marcaCarro + ", " +
+                "idade:" + modeloCarro + ", " +
+                "profissao:" + precoCarro + " ";
+    }
+
 }
+
